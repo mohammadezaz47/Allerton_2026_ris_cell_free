@@ -2,7 +2,7 @@
 
 Code and saved simulation data for:
 
-> Mohammad Ezaz and Azadeh Vosoughi, "Energy-Efficient RIS-Assisted User-Centric Cell-Free Massive MIMO: A Game-Theoretic Framework," 62nd Allerton Conference on Communication, Control, and Computing, 2026.
+> Mohammad Ezaz and Azadeh Vosoughi, "Energy-Efficient RIS-Assisted User-Centric Cell-Free Massive MIMO: A Game-Theoretic Framework," Allerton Conference on Communication, Control, and Computing, 2026.
 
 The paper studies pilot assignment, AP-user association, and downlink power allocation in a user-centric cell-free system with and without one fixed-phase RIS. The repository supports two related tasks: regenerating the paper's figures and tables from the saved run data, and executing new simulations with the same recorded settings.
 
@@ -65,9 +65,12 @@ The complete runs can take substantial compute time. Each chunk writes to its ow
 | `sen_tauKhalf_strongest_S100` | `tau_p = K/2` | Strongest singleton | 100 |
 | `sen_tauKhalf_full_S100` | `tau_p = K/2` | Full candidate | 100 |
 
-The launcher uses the seed and settings recorded with the original six runs. The scenario code runs both no-RIS and single-RIS cases, with 10 users, 35 four-antenna APs, and a 100-element RIS in the single-RIS case. The RIS phase is fixed at 45 degrees; the code does not optimize RIS phases.
-
+The launcher uses the seed and settings recorded with the original six runs. The scenario code runs both no-RIS and single-RIS cases, with 10 users, 35 four-antenna APs, and a 100-element RIS in the single-RIS case. The RIS is placed facing the AP region, 3 m inside the boundary of the 60 m user hotspot, with a 15 m exclusion zone around it for user placement. Its phase is fixed at 45 degrees; the code does not optimize RIS phases.
 
 ## Citation
 
-If this code helps your work, please cite the paper listed above.
+If you use any part of this code or the saved data, including a modified version, please cite the Allerton 2026 paper listed above. Citation details are also provided in `CITATION.cff` for GitHub's citation tool. 
+
+## License and acknowledgment
+
+This repository's code and saved numerical data are provided under the MIT License in `LICENSE`. The research was conducted at the University of Central Florida.
