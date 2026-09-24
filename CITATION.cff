@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the Allerton 2026 paper."
+title: "Code and data for Energy-Efficient RIS-Assisted User-Centric Cell-Free Massive MIMO: A Game-Theoretic Framework"
+authors:
+  - family-names: Ezaz
+    given-names: Mohammad
+  - family-names: Vosoughi
+    given-names: Azadeh
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: Ezaz
+      given-names: Mohammad
+    - family-names: Vosoughi
+      given-names: Azadeh
+  title: "Energy-Efficient RIS-Assisted User-Centric Cell-Free Massive MIMO: A Game-Theoretic Framework"
+  conference:
+    name: "Allerton Conference on Communication, Control, and Computing"
+  year: 2026
